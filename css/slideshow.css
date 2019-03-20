@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  margin: auto;
+  width: 1365px;
+  height: 500px;
+  position: relative;
+}
+.banner .slideshow {
+  width: 1365px;
+  height: 500px;
+  overflow: hidden;
+}
+.banner .slideshow .slide {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  visibility: hidden;
+}
+.banner .slideshow .slide img {
+  width: 1365px;
+  height: 500px;
+}
+.banner .slideshow .slide.active {
+  opacity: 1;
+  visibility: visible;
+}
+.banner .btn-slide span {
+  opacity: 0.6;
+  font-size: 40px;
+  color: white;
+}
+.banner .btn-slide span.btn-prev {
+  position: absolute;
+  left: 5px;
+  top: 47%;
+  cursor: pointer;
+  z-index: 10;
+}
+.banner .btn-slide span.btn-next {
+  position: absolute;
+  right: 5px;
+  top: 47%;
+  cursor: pointer;
+  z-index: 10;
+}
+.banner .btn-slide ul {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 10;
+  width: 100px;
+  bottom: 35px;
+  left: 50%;
+  margin-left: -50px;
+}
+.banner .btn-slide ul li {
+  list-style-type: none;
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
+  cursor: pointer;
+  background: white;
+  border-radius: 50%;
+}
+
+.bien-mat-ben-trai {
+  animation: bien-mat-ben-trai 1s forwards;
+}
+
+@-webkit-keyframes bien-mat-ben-trai {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-1365px);
+  }
+}
+.di-vao-ben-phai {
+  animation: di-vao-ben-phai 1s forwards;
+}
+
+@-webkit-keyframes di-vao-ben-phai {
+  from {
+    transform: translateX(1365px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+/*.bien-mat-ben-phai {
+  animation: bien-mat-ben-phai 1s forwards;
+}
+
+@-webkit-keyframes bien-mat-ben-phai {
+  from {
+    transform: translateX(1365px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+.di-vao-ben-trai {
+  animation: di-vao-ben-trai 1s forwards;
+}
+
+@-webkit-keyframes di-vao-ben-trai {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-1365px);
+  }
+}*/
+
+/*# sourceMappingURL=slideshow.css.map */
