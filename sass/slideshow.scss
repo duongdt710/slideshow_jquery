@@ -69,10 +69,11 @@
 		}
 	}
 }
-.bien-mat-ben-trai {
-	animation: bien-mat-ben-trai 1s forwards;
+
+.remove_slide_left {
+	animation: remove_slide_left 1s forwards;
 }
-@-webkit-keyframes bien-mat-ben-trai {
+@-webkit-keyframes remove_slide_left {
 	from {
 		transform: translateX(0px);
 	}
@@ -80,16 +81,40 @@
 		transform: translateX(-1352px);
 	}
 }
-.di-vao-ben-phai {
-	animation: di-vao-ben-phai 1s forwards;
+
+.slide_right {
+	animation: slide_right 1s forwards;
 }
-@-webkit-keyframes di-vao-ben-phai {
+@-webkit-keyframes slide_right {
 	from {
-		transform: translateX(1362px);
+		transform: translateX(1352px);
 	}
 	to {
-		transform: translateX(123px);
+		transform: translateX(0px);
 	}
 }
 
+.remove_slide_right {
+	animation: remove_slide_right 1s forwards;
+}
+@-webkit-keyframes remove_slide_right {
+	from {
+		transform: translateX(0px);
+	}
+	to {
+		transform: translateX(1352px);
+	}
+}
+
+.slide_left {
+	animation: slide_left 1s forwards;
+}
+@-webkit-keyframes slide_left {
+	from {
+		transform: translateX(-1352px);
+	}
+	to {
+		transform: translateX(0px);
+	}
+}
 
