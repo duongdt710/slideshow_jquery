@@ -5,12 +5,12 @@
 
 .banner {
   margin: auto;
-  width: 1365px;
+  width: 1352px;
   height: 500px;
   position: relative;
 }
 .banner .slideshow {
-  width: 1365px;
+  width: 1352px;
   height: 500px;
   overflow: hidden;
 }
@@ -22,7 +22,7 @@
   visibility: hidden;
 }
 .banner .slideshow .slide img {
-  width: 1365px;
+  width: 1352px;
   height: 500px;
 }
 .banner .slideshow .slide.active {
@@ -77,7 +77,7 @@
     transform: translateX(0px);
   }
   to {
-    transform: translateX(-1365px);
+    transform: translateX(-1352px);
   }
 }
 .di-vao-ben-phai {
@@ -86,7 +86,7 @@
 
 @-webkit-keyframes di-vao-ben-phai {
   from {
-    transform: translateX(1365px);
+    transform: translateX(1352px);
   }
   to {
     transform: translateX(0px);
@@ -101,7 +101,7 @@
     transform: translateX(0px);
   }
   to {
-    transform: translateX(1365px);
+    transform: translateX(1352px);
   }
 }
 .di-vao-ben-trai {
@@ -110,7 +110,7 @@
 
 @-webkit-keyframes di-vao-ben-trai {
   from {
-    transform: translateX(-1365px);
+    transform: translateX(-1352px);
   }
   to {
     transform: translateX(0px);
