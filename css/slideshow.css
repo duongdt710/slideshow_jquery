@@ -5,12 +5,12 @@
 
 .banner {
   margin: auto;
-  width: 1352px;
+  width: 1365px;
   height: 500px;
   position: relative;
 }
 .banner .slideshow {
-  width: 1352px;
+  width: 1365px;
   height: 500px;
   overflow: hidden;
 }
@@ -22,7 +22,7 @@
   visibility: hidden;
 }
 .banner .slideshow .slide img {
-  width: 1352px;
+  width: 1365px;
   height: 500px;
 }
 .banner .slideshow .slide.active {
@@ -33,6 +33,13 @@
   opacity: 0.6;
   font-size: 40px;
   color: white;
+}
+.banner .btn-slide span:hover {
+  background: #a08f8f;
+  width: 50px;
+}
+.banner .btn-slide span i {
+  margin: 9px 11px;
 }
 .banner .btn-slide span.btn-prev {
   position: absolute;
@@ -77,7 +84,7 @@
     transform: translateX(0px);
   }
   to {
-    transform: translateX(-1352px);
+    transform: translateX(-1365px);
   }
 }
 .slide_right {
@@ -86,7 +93,7 @@
 
 @-webkit-keyframes slide_right {
   from {
-    transform: translateX(1352px);
+    transform: translateX(1365px);
   }
   to {
     transform: translateX(0px);
@@ -101,7 +108,7 @@
     transform: translateX(0px);
   }
   to {
-    transform: translateX(1352px);
+    transform: translateX(1365px);
   }
 }
 .slide_left {
@@ -110,7 +117,7 @@
 
 @-webkit-keyframes slide_left {
   from {
-    transform: translateX(-1352px);
+    transform: translateX(-1365px);
   }
   to {
     transform: translateX(0px);
